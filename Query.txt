@@ -1,0 +1,7 @@
+SELECT ?name ?x ?y
+WHERE
+  { 
+    ?x <https://gemeentesnederland.com/Gemeentenaam> ?name .
+    ?y <https://scholennederland.com/Gemeentenaam> ?name .
+  
+   }

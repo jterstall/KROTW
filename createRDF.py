@@ -33,7 +33,7 @@ def read_in_xls(path_to_file_1, path_to_file_2, path_to_file_3, path_to_file_4, 
 	gm_names = excel1["Gemeentenaam"]
 	for i, gm_code in enumerate(gm_codes_1):
 		g.add((GMNTS[gm_code], RDF.type, GMNTS['Gemeentecode']))
-		g.add((GMNTS[gm_code], GMNTS['Gemeentenaam'], Literal(gm_names[i], lang='nl')))
+		g.add((GMNTS[gm_code], GMNTS['Gemeentenaam'], Literal(gm_names[i].title(), lang='nl')))
 
 	for i, gm_code in enumerate(gm_codes_4):
 		g.add((GMNTS[gm_code], GMNTS['leefbaarheid_score'], Literal(gm_leefbaar[i], lang='nl')))
@@ -48,7 +48,7 @@ def read_in_xls(path_to_file_1, path_to_file_2, path_to_file_3, path_to_file_4, 
 		g.add((SCHOOLS[gm_school_nummer], SCHOOLS['Schoolnaam'], Literal(gm_scholen[i], lang='nl')))
 		g.add((SCHOOLS[gm_school_nummer], SCHOOLS['slagingspercentage'], Literal((float(gm_geslaagden[i]/gm_kandidaten[i])*100), lang='nl')))
 		g.add((SCHOOLS[gm_school_nummer], SCHOOLS['gemiddelde_cijfer'], Literal(gm_cijfers[i], lang='nl')))
-		g.add((SCHOOLS[gm_school_nummer], SCHOOLS['Gemeentenaam'], Literal(gm_gemeente_scholen[i], lang='nl')))
+		g.add((SCHOOLS[gm_school_nummer], SCHOOLS['Gemeentenaam'], Literal(gm_gemeente_scholen[i].title(), lang='nl')))
 
 
 
@@ -68,7 +68,7 @@ g.bind('gm', GMNTS)
 g.bind('schl', SCHOOLS)
 g = read_in_xls(path_to_file_1, path_to_file_2, path_to_file_3, path_to_file_4, g, GMNTS, SCHOOLS)
 g.serialize(format='turtle')
-with open("Gemeentes.rdf", "w+") as f:
+with open("Gemeentes-2.ttl", "w+") as f:
 	f.write(g.serialize(format='turtle'))
 	f.close()
 
