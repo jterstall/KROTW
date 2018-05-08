@@ -8,11 +8,11 @@ import jellyfish
 import time
 import re
 
-LIMIT = 10
+LIMIT = 50
 
 def dist_ranking(fn, concept, cls, inverted=True):
     scores = [(fn(concept, str(concept2).split('.')[-1]), concept2) for concept2 in cls]
-    return sorted(scores, key=lambda x: x[0], reverse=inverted)
+    return sorted(scores, key=lambda x: x[0], reverse=inverted)[:10]
 
 
 def dist_ranking_syns(fn, syn_A, cls, syns_B, inverted=True):
@@ -20,7 +20,7 @@ def dist_ranking_syns(fn, syn_A, cls, syns_B, inverted=True):
         scores = [(max(retrieve_scores(fn, syn_A, syn_B)), cls[i]) for i, syn_B in enumerate(syns_B)]
     else:
         scores = [(min(retrieve_scores(fn, syn_A, syn_B)), cls[i]) for i, syn_B in enumerate(syns_B)]
-    return sorted(scores, key=lambda x: x[0], reverse=inverted)
+    return sorted(scores, key=lambda x: x[0], reverse=inverted)[:10]
 
 
 def ranking_similarity(classes_A, classes_B, syns_A, syns_B):
@@ -41,15 +41,15 @@ def ranking_similarity(classes_A, classes_B, syns_A, syns_B):
             ranking_hamming_syns.append((concept, dist_ranking_syns(jellyfish.hamming_distance, syns_concept, classes_B, syns_B, inverted=False)))
             ranking_jaro_syns.append((concept, dist_ranking_syns(jellyfish.jaro_distance, syns_concept, classes_B, syns_B)))
             ranking_waterman_syns.append((concept, dist_ranking_syns(smith_waterman, syns_concept, classes_B, syns_B)))
-    for i, concept in enumerate(classes_B):
-        if i < LIMIT:
-            ranking_hamming.append((concept, dist_ranking(jellyfish.hamming_distance, str(concept).split('.')[-1], classes_A, inverted=False)))
-            ranking_jaro.append((concept, dist_ranking(jellyfish.jaro_distance, str(concept).split('.')[-1], classes_A)))
-            ranking_waterman.append((concept, dist_ranking(smith_waterman, str(concept).split('.')[-1], classes_A)))
-            syns_concept = syns_B[i]
-            ranking_hamming_syns.append((concept, dist_ranking_syns(jellyfish.hamming_distance, syns_concept, classes_A, syns_A, inverted=False)))
-            ranking_jaro_syns.append((concept, dist_ranking_syns(jellyfish.jaro_distance, syns_concept, classes_A, syns_A)))
-            ranking_waterman_syns.append((concept, dist_ranking_syns(smith_waterman, syns_concept, classes_A, syns_A)))
+    # for i, concept in enumerate(classes_B):
+    #     if i < LIMIT:
+    #         ranking_hamming.append((concept, dist_ranking(jellyfish.hamming_distance, str(concept).split('.')[-1], classes_A, inverted=False)))
+    #         ranking_jaro.append((concept, dist_ranking(jellyfish.jaro_distance, str(concept).split('.')[-1], classes_A)))
+    #         ranking_waterman.append((concept, dist_ranking(smith_waterman, str(concept).split('.')[-1], classes_A)))
+    #         syns_concept = syns_B[i]
+    #         ranking_hamming_syns.append((concept, dist_ranking_syns(jellyfish.hamming_distance, syns_concept, classes_A, syns_A, inverted=False)))
+    #         ranking_jaro_syns.append((concept, dist_ranking_syns(jellyfish.jaro_distance, syns_concept, classes_A, syns_A)))
+    #         ranking_waterman_syns.append((concept, dist_ranking_syns(smith_waterman, syns_concept, classes_A, syns_A)))
     timeout = time.time()
     pprint("Run time: " + str(timeout - timein) + " seconds")
     return ranking_hamming, ranking_jaro, ranking_waterman, ranking_hamming_syns, ranking_jaro_syns, ranking_waterman_syns
@@ -90,7 +90,7 @@ def retrieve_scores(fn, concept1, concept2):
     return scores
 
 
-def compute_synonym_similarity(syns_A, syns_B, hamming_threshold=1, jaro_threshold=0.95, waterman_threshold=5):
+def compute_synonym_similarity(syns_A, syns_B, hamming_threshold=1, jaro_threshold=0.95, waterman_threshold=7):
     pprint("Calculating synonym similarity")
     timein = time.time()
     hamming_indices = []
@@ -152,7 +152,7 @@ def compute_dist_le(fn, matches, match_indices, concept1, concept2, i, j, thresh
     return matches, match_indices
 
 
-def compute_string_similarity(classes_A, classes_B, hamming_threshold=1, jaro_threshold=0.95, waterman_threshold=5):
+def compute_string_similarity(classes_A, classes_B, hamming_threshold=1, jaro_threshold=0.95, waterman_threshold=7):
     pprint("Calculating concept similarity")
     timein = time.time()
     jaro_matches = []
@@ -209,6 +209,53 @@ def main():
     syn_waterman_triples = create_triples(classes_A, classes_B, syn_waterman_indices)
 
     hamming_ranking, jaro_ranking, waterman_ranking, hamming_syns_ranking, jaro_syns_ranking, waterman_syns_ranking = ranking_similarity(classes_A, classes_B, syns_A, syns_B)
+
+    with open(r'match_people_pets.txt', 'w') as f:
+        f.write("\n triples: \n")
+        for triple in match_triples:
+            f.write(str(triple) + "\n")
+        f.write("\n Syn triples: \n")
+        for triple in syn_match_triples:
+            f.write(str(triple) + "\n")
+    with open(r'hamming_people_pets.txt', 'w') as f:
+        f.write("\n triples: \n")
+        for triple in hamming_triples:
+            f.write(str(triple) + "\n")
+        f.write("\n Syn triples: \n")
+        for triple in syn_hamming_triples:
+            f.write(str(triple) + "\n")
+        f.write("\n Ranking: \n")
+        for ranking in hamming_ranking:
+            f.write(str(ranking) + "\n\n")
+        f.write("\n Syn Ranking: \n")
+        for ranking in hamming_syns_ranking:
+            f.write(str(ranking) + "\n\n")
+    with open(r'jaro_people_pets.txt', 'w') as f:
+        f.write("\n triples: \n")
+        for triple in jaro_triples:
+            f.write(str(triple) + "\n")
+        f.write("\n Syn triples: \n")
+        for triple in syn_jaro_triples:
+            f.write(str(triple) + "\n")
+        f.write("\n Ranking: \n")
+        for ranking in jaro_ranking:
+            f.write(str(ranking) + "\n\n")
+        f.write("\n Syn Ranking: \n")
+        for ranking in jaro_syns_ranking:
+            f.write(str(ranking) + "\n\n")
+    with open(r'waterman_people_pets.txt', 'w') as f:
+        f.write("\n triples: \n")
+        for triple in waterman_triples:
+            f.write(str(triple) + "\n")
+        f.write("\n Syn triples: \n")
+        for triple in syn_waterman_triples:
+            f.write(str(triple) + "\n")
+        f.write("\n Ranking: \n")
+        for ranking in waterman_ranking:
+            f.write(str(ranking) + "\n\n")
+        f.write("\n Syn Ranking: \n")
+        for ranking in waterman_syns_ranking:
+            f.write(str(ranking) + "\n\n")
 
 
 if __name__ == '__main__':

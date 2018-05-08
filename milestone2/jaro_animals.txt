@@ -1,0 +1,65 @@
+
+ triples: 
+animalsA.Woman owl:equivalentClass animalsB.Woman
+animalsA.Animal owl:equivalentClass animalsB.Animal
+animalsA.Person owl:equivalentClass animalsB.Person
+animalsA.Man owl:equivalentClass animalsB.Man
+animalsA.Male owl:equivalentClass animalsB.Male
+animalsA.Female owl:equivalentClass animalsB.Female
+
+ Syn triples: 
+animalsA.HumanBeing owl:equivalentClass animalsB.Man
+animalsA.Woman owl:equivalentClass animalsB.Woman
+animalsA.Animal owl:equivalentClass animalsB.Animal
+animalsA.Person owl:equivalentClass animalsB.Person
+animalsA.Man owl:equivalentClass animalsB.Man
+animalsA.Male owl:equivalentClass animalsB.Male
+animalsA.Female owl:equivalentClass animalsB.Female
+
+ Ranking: 
+(animalsA.Animal, [(1.0, animalsB.Animal), (0.6666666666666666, animalsB.Female), (0.5833333333333334, animalsB.BipedalThing), (0.5833333333333334, animalsB.BipedalThing), (0.5777777777777778, animalsB.Woman), (0.576923076923077, animalsB.BipedalPerson), (0.5, animalsB.Man), (0.49572649572649574, animalsB.Hermaphrodite), (0.0, animalsB.Male), (0.0, animalsB.Person)])
+
+(animalsA.Male, [(1.0, animalsB.Male), (0.7222222222222222, animalsB.Man), (0.5833333333333334, animalsB.Female), (0.5, animalsB.BipedalThing), (0.5, animalsB.BipedalThing), (0.4935897435897436, animalsB.BipedalPerson), (0.47222222222222215, animalsB.Person), (0.47222222222222215, animalsB.Person), (0.3846153846153846, animalsB.Hermaphrodite), (0.0, animalsB.Animal)])
+
+(animalsA.Female, [(1.0, animalsB.Female), (0.6666666666666666, animalsB.Animal), (0.6581196581196581, animalsB.BipedalPerson), (0.5833333333333334, animalsB.Male), (0.5833333333333334, animalsB.BipedalThing), (0.5833333333333334, animalsB.BipedalThing), (0.5777777777777778, animalsB.Woman), (0.576923076923077, animalsB.Hermaphrodite), (0.5, animalsB.Man), (0.4444444444444444, animalsB.Person)])
+
+(animalsA.Man, [(1.0, animalsB.Man), (0.7222222222222222, animalsB.Male), (0.5, animalsB.Animal), (0.5, animalsB.Female), (0.47222222222222215, animalsB.BipedalThing), (0.47222222222222215, animalsB.BipedalThing), (0.47008547008547, animalsB.Hermaphrodite), (0.47008547008547, animalsB.BipedalPerson), (0.0, animalsB.Woman), (0.0, animalsB.Person)])
+
+(animalsA.HumanBeing, [(0.6333333333333333, animalsB.Woman), (0.6222222222222222, animalsB.Man), (0.6166666666666667, animalsB.BipedalThing), (0.6166666666666667, animalsB.BipedalThing), (0.6, animalsB.Female), (0.5666666666666667, animalsB.Male), (0.5282051282051282, animalsB.Hermaphrodite), (0.44423076923076926, animalsB.BipedalPerson), (0.43333333333333335, animalsB.Animal), (0.4222222222222222, animalsB.Person)])
+
+(animalsA.Woman, [(1.0, animalsB.Woman), (0.5777777777777778, animalsB.Animal), (0.5777777777777778, animalsB.Female), (0.517948717948718, animalsB.Hermaphrodite), (0.45555555555555555, animalsB.Person), (0.45555555555555555, animalsB.Person), (0.42777777777777776, animalsB.BipedalThing), (0.42777777777777776, animalsB.BipedalThing), (0.4256410256410256, animalsB.BipedalPerson), (0.0, animalsB.Male)])
+
+(animalsA.Person, [(1.0, animalsB.Person), (1.0, animalsB.Person), (0.576923076923077, animalsB.Hermaphrodite), (0.5, animalsB.BipedalThing), (0.5, animalsB.BipedalThing), (0.47222222222222215, animalsB.Male), (0.45555555555555555, animalsB.Woman), (0.4444444444444444, animalsB.Female), (0.41452991452991456, animalsB.BipedalPerson), (0.0, animalsB.Animal)])
+
+(animalsA.TwoLeggedThing, [(0.5515873015873016, animalsB.BipedalThing), (0.5515873015873016, animalsB.BipedalThing), (0.4920634920634921, animalsB.Female), (0.4911477411477412, animalsB.Hermaphrodite), (0.4478021978021978, animalsB.BipedalPerson), (0.44047619047619047, animalsB.Male), (0.4238095238095238, animalsB.Woman), (0.3253968253968254, animalsB.Person), (0.3253968253968254, animalsB.Person), (0.0, animalsB.Animal)])
+
+(animalsA.TwoLeggedPerson, [(0.6537393162393162, animalsB.BipedalPerson), (0.48888888888888893, animalsB.Female), (0.4393162393162393, animalsB.Hermaphrodite), (0.4388888888888889, animalsB.Male), (0.4222222222222222, animalsB.Woman), (0.4083333333333334, animalsB.BipedalThing), (0.4083333333333334, animalsB.BipedalThing), (0.32222222222222224, animalsB.Person), (0.32222222222222224, animalsB.Person), (0.0, animalsB.Animal)])
+
+(animalsA.Person, [(1.0, animalsB.Person), (1.0, animalsB.Person), (0.576923076923077, animalsB.Hermaphrodite), (0.5, animalsB.BipedalThing), (0.5, animalsB.BipedalThing), (0.47222222222222215, animalsB.Male), (0.45555555555555555, animalsB.Woman), (0.4444444444444444, animalsB.Female), (0.41452991452991456, animalsB.BipedalPerson), (0.0, animalsB.Animal)])
+
+(animalsA.TwoLeggedThing, [(0.5515873015873016, animalsB.BipedalThing), (0.5515873015873016, animalsB.BipedalThing), (0.4920634920634921, animalsB.Female), (0.4911477411477412, animalsB.Hermaphrodite), (0.4478021978021978, animalsB.BipedalPerson), (0.44047619047619047, animalsB.Male), (0.4238095238095238, animalsB.Woman), (0.3253968253968254, animalsB.Person), (0.3253968253968254, animalsB.Person), (0.0, animalsB.Animal)])
+
+
+ Syn Ranking: 
+(animalsA.Animal, [(1.0, animalsB.Animal), (0.75, animalsB.Woman), (0.7257187257187256, animalsB.Man), (0.7025641025641026, animalsB.BipedalThing), (0.7025641025641026, animalsB.BipedalThing), (0.7000000000000001, animalsB.Male), (0.6666666666666666, animalsB.Female), (0.6666666666666666, animalsB.Person), (0.6666666666666666, animalsB.Person), (0.6047619047619047, animalsB.BipedalPerson)])
+
+(animalsA.Male, [(1.0, animalsB.Male), (0.8666666666666667, animalsB.Man), (0.8426573426573426, animalsB.Female), (0.7911255411255412, animalsB.BipedalPerson), (0.7000000000000001, animalsB.Animal), (0.7000000000000001, animalsB.Woman), (0.6444444444444445, animalsB.Hermaphrodite), (0.611111111111111, animalsB.Person), (0.611111111111111, animalsB.Person), (0.5301087801087802, animalsB.BipedalThing)])
+
+(animalsA.Female, [(1.0, animalsB.Female), (0.8426573426573426, animalsB.Male), (0.7445054945054945, animalsB.BipedalPerson), (0.7130277130277131, animalsB.Man), (0.7043142043142043, animalsB.Hermaphrodite), (0.6666666666666666, animalsB.Animal), (0.6666666666666666, animalsB.Person), (0.6666666666666666, animalsB.Person), (0.625, animalsB.Woman), (0.576923076923077, animalsB.BipedalThing)])
+
+(animalsA.Man, [(1.0, animalsB.Man), (0.8777777777777779, animalsB.Woman), (0.8666666666666667, animalsB.Male), (0.8047619047619049, animalsB.Hermaphrodite), (0.7261904761904763, animalsB.Person), (0.7261904761904763, animalsB.Person), (0.7257187257187256, animalsB.Animal), (0.7130277130277131, animalsB.Female), (0.6625781625781625, animalsB.BipedalPerson), (0.6196581196581197, animalsB.BipedalThing)])
+
+(animalsA.HumanBeing, [(1.0, animalsB.Man), (0.8666666666666667, animalsB.Male), (0.7777777777777777, animalsB.Woman), (0.7261904761904763, animalsB.Person), (0.7261904761904763, animalsB.Person), (0.7257187257187256, animalsB.Animal), (0.6666666666666666, animalsB.Female), (0.6602564102564102, animalsB.Hermaphrodite), (0.5856643356643357, animalsB.BipedalThing), (0.5856643356643357, animalsB.BipedalThing)])
+
+(animalsA.Woman, [(1.0, animalsB.Woman), (0.8777777777777779, animalsB.Man), (0.75, animalsB.Animal), (0.7000000000000001, animalsB.Male), (0.6761904761904761, animalsB.Person), (0.6761904761904761, animalsB.Person), (0.65, animalsB.Hermaphrodite), (0.625, animalsB.Female), (0.6190476190476191, animalsB.BipedalPerson), (0.5732600732600733, animalsB.BipedalThing)])
+
+(animalsA.Person, [(1.0, animalsB.Person), (1.0, animalsB.Person), (0.7261904761904763, animalsB.Man), (0.6761904761904761, animalsB.Woman), (0.6666666666666666, animalsB.Animal), (0.6666666666666666, animalsB.Female), (0.625, animalsB.Hermaphrodite), (0.611111111111111, animalsB.Male), (0.5619047619047619, animalsB.BipedalPerson), (0.5282051282051282, animalsB.BipedalThing)])
+
+(animalsA.TwoLeggedThing, [(0.6833333333333332, animalsB.Man), (0.5849358974358975, animalsB.BipedalThing), (0.5849358974358975, animalsB.BipedalThing), (0.5416666666666666, animalsB.Male), (0.5416666666666666, animalsB.Person), (0.5416666666666666, animalsB.Person), (0.5208333333333334, animalsB.Hermaphrodite), (0.5157967032967034, animalsB.Animal), (0.5083333333333333, animalsB.Woman), (0.49903846153846154, animalsB.Female)])
+
+(animalsA.TwoLeggedPerson, [(0.7524886877828054, animalsB.Female), (0.6784313725490195, animalsB.Man), (0.6685340802987861, animalsB.Hermaphrodite), (0.6675070028011204, animalsB.BipedalPerson), (0.6529015646662706, animalsB.Male), (0.5392156862745098, animalsB.Person), (0.5392156862745098, animalsB.Person), (0.5058823529411764, animalsB.Animal), (0.5058823529411764, animalsB.Woman), (0.4381598793363499, animalsB.BipedalThing)])
+
+(animalsA.Person, [(1.0, animalsB.Person), (1.0, animalsB.Person), (0.7261904761904763, animalsB.Man), (0.6761904761904761, animalsB.Woman), (0.6666666666666666, animalsB.Animal), (0.6666666666666666, animalsB.Female), (0.625, animalsB.Hermaphrodite), (0.611111111111111, animalsB.Male), (0.5619047619047619, animalsB.BipedalPerson), (0.5282051282051282, animalsB.BipedalThing)])
+
+(animalsA.TwoLeggedThing, [(0.6833333333333332, animalsB.Man), (0.5849358974358975, animalsB.BipedalThing), (0.5849358974358975, animalsB.BipedalThing), (0.5416666666666666, animalsB.Male), (0.5416666666666666, animalsB.Person), (0.5416666666666666, animalsB.Person), (0.5208333333333334, animalsB.Hermaphrodite), (0.5157967032967034, animalsB.Animal), (0.5083333333333333, animalsB.Woman), (0.49903846153846154, animalsB.Female)])
+

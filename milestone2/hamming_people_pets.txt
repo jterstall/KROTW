@@ -1,0 +1,300 @@
+
+ triples: 
+people+petsA.person owl:equivalentClass people+petsB.person
+people+petsA.van owl:equivalentClass people+petsB.man
+people+petsA.cat owl:equivalentClass people+petsB.car
+people+petsA.cow owl:equivalentClass people+petsB.cow
+people+petsA.van owl:equivalentClass people+petsB.van
+people+petsA.brain owl:equivalentClass people+petsB.brain
+people+petsA.male owl:equivalentClass people+petsB.male
+people+petsA.kid owl:equivalentClass people+petsB.kid
+people+petsA.man owl:equivalentClass people+petsB.man
+people+petsA.sheep owl:equivalentClass people+petsB.sheep
+people+petsA.car owl:equivalentClass people+petsB.car
+people+petsA.giraffe owl:equivalentClass people+petsB.giraffe
+people+petsA.animal owl:equivalentClass people+petsB.animal
+people+petsA.dog owl:equivalentClass people+petsB.dog
+people+petsA.white_thing owl:equivalentClass people+petsB.white_thing
+people+petsA.publication owl:equivalentClass people+petsB.publication
+people+petsA.adult owl:equivalentClass people+petsB.adult
+people+petsA.quality_broadsheet owl:equivalentClass people+petsB.quality_broadsheet
+people+petsA.cat owl:equivalentClass people+petsB.cat
+people+petsA.man owl:equivalentClass people+petsB.van
+people+petsA.tabloid owl:equivalentClass people+petsB.tabloid
+people+petsA.vehicle owl:equivalentClass people+petsB.vehicle
+people+petsA.cat_owner owl:equivalentClass people+petsB.cat_owner
+people+petsA.broadsheet owl:equivalentClass people+petsB.broadsheet
+people+petsA.pet_owner owl:equivalentClass people+petsB.pet_owner
+people+petsA.mad_cow owl:equivalentClass people+petsB.mad_cow
+people+petsA.bone owl:equivalentClass people+petsB.bone
+people+petsA.newspaper owl:equivalentClass people+petsB.newspaper
+people+petsA.car owl:equivalentClass people+petsB.cat
+people+petsA.grownup owl:equivalentClass people+petsB.grownup
+people+petsA.company owl:equivalentClass people+petsB.company
+people+petsA.white_van_man owl:equivalentClass people+petsB.white_van_man
+people+petsA.leaf owl:equivalentClass people+petsB.leaf
+
+ Syn triples: 
+people+petsA.person owl:equivalentClass people+petsB.person
+people+petsA.van owl:equivalentClass people+petsB.man
+people+petsA.cat owl:equivalentClass people+petsB.car
+people+petsA.tabloid owl:equivalentClass people+petsB.sheep
+people+petsA.van owl:equivalentClass people+petsB.van
+people+petsA.adult owl:equivalentClass people+petsB.grownup
+people+petsA.cow owl:equivalentClass people+petsB.cow
+people+petsA.brain owl:equivalentClass people+petsB.brain
+people+petsA.tabloid owl:equivalentClass people+petsB.dog
+people+petsA.bus owl:equivalentClass people+petsB.coach
+people+petsA.dog owl:equivalentClass people+petsB.coach
+people+petsA.kid owl:equivalentClass people+petsB.bicycle
+people+petsA.male owl:equivalentClass people+petsB.male
+people+petsA.dog owl:equivalentClass people+petsB.plant
+people+petsA.kid owl:equivalentClass people+petsB.kid
+people+petsA.dog owl:equivalentClass people+petsB.car
+people+petsA.man owl:equivalentClass people+petsB.man
+people+petsA.sheep owl:equivalentClass people+petsB.sheep
+people+petsA.dog owl:equivalentClass people+petsB.cat
+people+petsA.company owl:equivalentClass people+petsB.duck
+people+petsA.dog owl:equivalentClass people+petsB.leaf
+people+petsA.brain owl:equivalentClass people+petsB.coach
+people+petsA.leaf owl:equivalentClass people+petsB.magazine
+people+petsA.car owl:equivalentClass people+petsB.car
+people+petsA.giraffe owl:equivalentClass people+petsB.giraffe
+people+petsA.animal owl:equivalentClass people+petsB.animal
+people+petsA.dog owl:equivalentClass people+petsB.dog
+people+petsA.white_thing owl:equivalentClass people+petsB.white_thing
+people+petsA.publication owl:equivalentClass people+petsB.publication
+people+petsA.grownup owl:equivalentClass people+petsB.adult
+people+petsA.car owl:equivalentClass people+petsB.dog
+people+petsA.dog owl:equivalentClass people+petsB.tabloid
+people+petsA.bus owl:equivalentClass people+petsB.brain
+people+petsA.adult owl:equivalentClass people+petsB.adult
+people+petsA.quality_broadsheet owl:equivalentClass people+petsB.quality_broadsheet
+people+petsA.cat owl:equivalentClass people+petsB.cat
+people+petsA.man owl:equivalentClass people+petsB.van
+people+petsA.cat owl:equivalentClass people+petsB.dog
+people+petsA.tabloid owl:equivalentClass people+petsB.magazine
+people+petsA.dog owl:equivalentClass people+petsB.truck
+people+petsA.leaf owl:equivalentClass people+petsB.dog
+people+petsA.cat_owner owl:equivalentClass people+petsB.cat_owner
+people+petsA.vehicle owl:equivalentClass people+petsB.vehicle
+people+petsA.tabloid owl:equivalentClass people+petsB.tabloid
+people+petsA.broadsheet owl:equivalentClass people+petsB.broadsheet
+people+petsA.pet_owner owl:equivalentClass people+petsB.pet_owner
+people+petsA.mad_cow owl:equivalentClass people+petsB.mad_cow
+people+petsA.bone owl:equivalentClass people+petsB.bone
+people+petsA.tabloid owl:equivalentClass people+petsB.grass
+people+petsA.dog owl:equivalentClass people+petsB.magazine
+people+petsA.newspaper owl:equivalentClass people+petsB.newspaper
+people+petsA.car owl:equivalentClass people+petsB.cat
+people+petsA.cat owl:equivalentClass people+petsB.grass
+people+petsA.grownup owl:equivalentClass people+petsB.grownup
+people+petsA.company owl:equivalentClass people+petsB.company
+people+petsA.white_van_man owl:equivalentClass people+petsB.white_van_man
+people+petsA.sheep owl:equivalentClass people+petsB.tabloid
+people+petsA.leaf owl:equivalentClass people+petsB.leaf
+people+petsA.man owl:equivalentClass people+petsB.magazine
+
+ Ranking: 
+(people+petsA.white_van_man, [(0, people+petsB.white_van_man), (0, people+petsB.white_van_man), (7, people+petsB.white_thing), (7, people+petsB.white_thing), (7, people+petsB.white_thing), (11, owl.Thing), (11, owl.Thing), (11, people+petsB.driver), (11, people+petsB.driver), (12, people+petsB.animal)])
+
+(people+petsA.man, [(0, people+petsB.man), (0, people+petsB.man), (0, people+petsB.man), (1, people+petsB.van), (1, people+petsB.van), (1, people+petsB.van), (1, people+petsB.van), (2, people+petsB.cat), (2, people+petsB.cat), (2, people+petsB.car)])
+
+(people+petsA.white_thing, [(0, people+petsB.white_thing), (0, people+petsB.white_thing), (0, people+petsB.white_thing), (7, people+petsB.white_van_man), (7, people+petsB.white_van_man), (9, owl.Thing), (9, owl.Thing), (9, people+petsB.driver), (9, people+petsB.driver), (10, people+petsB.publication)])
+
+(people+petsA.van, [(0, people+petsB.van), (0, people+petsB.van), (0, people+petsB.van), (0, people+petsB.van), (1, people+petsB.man), (1, people+petsB.man), (1, people+petsB.man), (2, people+petsB.cat), (2, people+petsB.cat), (2, people+petsB.car)])
+
+(people+petsA.publication, [(0, people+petsB.publication), (0, people+petsB.publication), (0, people+petsB.publication), (0, people+petsB.publication), (9, people+petsB.tabloid), (9, people+petsB.tabloid), (9, people+petsB.tabloid), (9, people+petsB.tabloid), (9, people+petsB.tabloid), (9, people+petsB.tabloid)])
+
+(people+petsA.giraffe, [(0, people+petsB.giraffe), (5, people+petsB.bicycle), (6, people+petsB.person), (6, people+petsB.person), (6, people+petsB.grownup), (6, people+petsB.person), (6, people+petsB.vehicle), (6, people+petsB.person), (6, people+petsB.vehicle), (6, people+petsB.car)])
+
+(people+petsA.animal, [(0, people+petsB.animal), (0, people+petsB.animal), (0, people+petsB.animal), (0, people+petsB.animal), (0, people+petsB.animal), (0, people+petsB.animal), (0, people+petsB.animal), (0, people+petsB.animal), (0, people+petsB.animal), (0, people+petsB.animal)])
+
+(people+petsA.leaf, [(0, people+petsB.leaf), (0, people+petsB.leaf), (3, people+petsB.pet), (4, people+petsB.man), (4, people+petsB.van), (4, people+petsB.cat), (4, people+petsB.cat), (4, people+petsB.cow), (4, people+petsB.brain), (4, people+petsB.coach)])
+
+(people+petsA.cat_liker, [(2, people+petsB.cat_lover), (3, people+petsB.cat_owner), (5, people+petsB.pet_owner), (5, people+petsB.dog_lover), (6, people+petsB.cat), (6, people+petsB.cat), (6, people+petsB.cat), (6, people+petsB.dog_owner), (6, people+petsB.magazine), (6, people+petsB.cat)])
+
+(people+petsA.person, [(0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person)])
+
+(people+petsA.cat, [(0, people+petsB.cat), (0, people+petsB.cat), (0, people+petsB.cat), (0, people+petsB.cat), (0, people+petsB.cat), (0, people+petsB.cat), (1, people+petsB.car), (2, people+petsB.man), (2, people+petsB.van), (2, people+petsB.cow)])
+
+(people+petsA.cat_owner, [(0, people+petsB.cat_owner), (2, people+petsB.pet_owner), (3, people+petsB.cat_lover), (3, people+petsB.dog_owner), (6, people+petsB.cat), (6, people+petsB.cat), (6, people+petsB.cat), (6, people+petsB.dog_lover), (6, people+petsB.magazine), (6, people+petsB.cat)])
+
+(people+petsA.person, [(0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person)])
+
+(people+petsA.cat, [(0, people+petsB.cat), (0, people+petsB.cat), (0, people+petsB.cat), (0, people+petsB.cat), (0, people+petsB.cat), (0, people+petsB.cat), (1, people+petsB.car), (2, people+petsB.man), (2, people+petsB.van), (2, people+petsB.cow)])
+
+(people+petsA.grownup, [(0, people+petsB.grownup), (5, people+petsB.brain), (5, people+petsB.brain), (5, people+petsB.grass), (5, people+petsB.grass), (6, people+petsB.giraffe), (6, people+petsB.red_top), (6, people+petsB.tree), (6, people+petsB.tree), (6, people+petsB.truck)])
+
+(people+petsA.person, [(0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person)])
+
+(people+petsA.adult, [(0, people+petsB.adult), (0, people+petsB.adult), (0, people+petsB.adult), (0, people+petsB.adult), (0, people+petsB.adult), (0, people+petsB.adult), (0, people+petsB.adult), (4, people+petsB.plant), (4, people+petsB.truck), (4, people+petsB.truck)])
+
+(people+petsA.quality_broadsheet, [(0, people+petsB.quality_broadsheet), (15, people+petsB.publication), (15, people+petsB.publication), (15, people+petsB.publication), (15, people+petsB.publication), (16, people+petsB.haulage_worker), (16, people+petsB.haulage_company), (16, people+petsB.haulage_company), (16, people+petsB.haulage_company), (16, people+petsB.haulage_company)])
+
+(people+petsA.broadsheet, [(0, people+petsB.broadsheet), (0, people+petsB.broadsheet), (0, people+petsB.broadsheet), (0, people+petsB.broadsheet), (0, people+petsB.broadsheet), (0, people+petsB.broadsheet), (8, people+petsB.grownup), (8, people+petsB.brain), (8, people+petsB.brain), (8, people+petsB.magazine)])
+
+(people+petsA.vehicle, [(0, people+petsB.vehicle), (0, people+petsB.vehicle), (0, people+petsB.vehicle), (0, people+petsB.vehicle), (0, people+petsB.vehicle), (0, people+petsB.vehicle), (0, people+petsB.vehicle), (0, people+petsB.vehicle), (4, people+petsB.bicycle), (6, people+petsB.van)])
+
+(people+petsA.newspaper, [(0, people+petsB.newspaper), (0, people+petsB.newspaper), (0, people+petsB.newspaper), (6, people+petsB.pet_owner), (7, people+petsB.cat_lover), (7, people+petsB.person), (7, people+petsB.cat_owner), (7, people+petsB.person), (7, people+petsB.person), (7, people+petsB.person)])
+
+(people+petsA.publication, [(0, people+petsB.publication), (0, people+petsB.publication), (0, people+petsB.publication), (0, people+petsB.publication), (9, people+petsB.tabloid), (9, people+petsB.tabloid), (9, people+petsB.tabloid), (9, people+petsB.tabloid), (9, people+petsB.tabloid), (9, people+petsB.tabloid)])
+
+(people+petsA.broadsheet, [(0, people+petsB.broadsheet), (0, people+petsB.broadsheet), (0, people+petsB.broadsheet), (0, people+petsB.broadsheet), (0, people+petsB.broadsheet), (0, people+petsB.broadsheet), (8, people+petsB.grownup), (8, people+petsB.brain), (8, people+petsB.brain), (8, people+petsB.magazine)])
+
+(people+petsA.tabloid, [(0, people+petsB.tabloid), (0, people+petsB.tabloid), (0, people+petsB.tabloid), (0, people+petsB.tabloid), (0, people+petsB.tabloid), (0, people+petsB.tabloid), (6, people+petsB.man), (6, people+petsB.van), (6, people+petsB.person), (6, people+petsB.cat)])
+
+(people+petsA.bus_company, [(8, people+petsB.mad_cow), (9, people+petsB.cat_lover), (9, people+petsB.red_top), (9, people+petsB.dog_lover), (9, people+petsB.bicycle), (10, people+petsB.white_thing), (10, people+petsB.publication), (10, people+petsB.cat_owner), (10, people+petsB.broadsheet), (10, people+petsB.vehicle)])
+
+(people+petsA.company, [(0, people+petsB.company), (0, people+petsB.company), (0, people+petsB.company), (5, people+petsB.cow), (5, people+petsB.coach), (5, people+petsB.coach), (5, people+petsB.woman), (5, people+petsB.woman), (5, people+petsB.coach), (6, people+petsB.animal)])
+
+(people+petsA.pet_owner, [(0, people+petsB.pet_owner), (2, people+petsB.cat_owner), (3, people+petsB.dog_owner), (5, people+petsB.cat_lover), (6, people+petsB.person), (6, people+petsB.person), (6, people+petsB.person), (6, people+petsB.newspaper), (6, people+petsB.person), (6, people+petsB.person)])
+
+(people+petsA.person, [(0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person)])
+
+(people+petsA.animal, [(0, people+petsB.animal), (0, people+petsB.animal), (0, people+petsB.animal), (0, people+petsB.animal), (0, people+petsB.animal), (0, people+petsB.animal), (0, people+petsB.animal), (0, people+petsB.animal), (0, people+petsB.animal), (0, people+petsB.animal)])
+
+(people+petsA.mad_cow, [(0, people+petsB.mad_cow), (4, people+petsB.red_top), (5, people+petsB.man), (5, people+petsB.man), (5, people+petsB.male), (5, people+petsB.male), (5, people+petsB.man), (5, people+petsB.male), (6, people+petsB.van), (6, people+petsB.cat_lover)])
+
+(people+petsA.cow, [(0, people+petsB.cow), (2, people+petsB.cat), (2, people+petsB.cat), (2, people+petsB.car), (2, people+petsB.cat), (2, people+petsB.dog), (2, people+petsB.dog), (2, people+petsB.dog), (2, people+petsB.cat), (2, people+petsB.dog)])
+
+(people+petsA.brain, [(0, people+petsB.brain), (0, people+petsB.brain), (3, people+petsB.grass), (3, people+petsB.grass), (4, people+petsB.leaf), (4, people+petsB.coach), (4, people+petsB.bone), (4, people+petsB.bone), (4, people+petsB.leaf), (4, people+petsB.tree)])
+
+(people+petsA.sheep, [(0, people+petsB.sheep), (0, people+petsB.sheep), (3, people+petsB.tree), (3, people+petsB.tree), (4, people+petsB.bone), (4, people+petsB.male), (4, owl.Thing), (4, people+petsB.bone), (4, people+petsB.male), (4, owl.Thing)])
+
+(people+petsA.bus, [(3, people+petsB.man), (3, people+petsB.van), (3, people+petsB.cat), (3, people+petsB.cat), (3, people+petsB.cow), (3, people+petsB.car), (3, people+petsB.cat), (3, people+petsB.dog), (3, people+petsB.bone), (3, people+petsB.kid)])
+
+(people+petsA.vehicle, [(0, people+petsB.vehicle), (0, people+petsB.vehicle), (0, people+petsB.vehicle), (0, people+petsB.vehicle), (0, people+petsB.vehicle), (0, people+petsB.vehicle), (0, people+petsB.vehicle), (0, people+petsB.vehicle), (4, people+petsB.bicycle), (6, people+petsB.van)])
+
+(people+petsA.car, [(0, people+petsB.car), (1, people+petsB.cat), (1, people+petsB.cat), (1, people+petsB.cat), (1, people+petsB.cat), (1, people+petsB.cat), (1, people+petsB.cat), (2, people+petsB.man), (2, people+petsB.van), (2, people+petsB.cow)])
+
+(people+petsA.vehicle, [(0, people+petsB.vehicle), (0, people+petsB.vehicle), (0, people+petsB.vehicle), (0, people+petsB.vehicle), (0, people+petsB.vehicle), (0, people+petsB.vehicle), (0, people+petsB.vehicle), (0, people+petsB.vehicle), (4, people+petsB.bicycle), (6, people+petsB.van)])
+
+(people+petsA.cat, [(0, people+petsB.cat), (0, people+petsB.cat), (0, people+petsB.cat), (0, people+petsB.cat), (0, people+petsB.cat), (0, people+petsB.cat), (1, people+petsB.car), (2, people+petsB.man), (2, people+petsB.van), (2, people+petsB.cow)])
+
+(people+petsA.animal, [(0, people+petsB.animal), (0, people+petsB.animal), (0, people+petsB.animal), (0, people+petsB.animal), (0, people+petsB.animal), (0, people+petsB.animal), (0, people+petsB.animal), (0, people+petsB.animal), (0, people+petsB.animal), (0, people+petsB.animal)])
+
+(people+petsA.cow, [(0, people+petsB.cow), (2, people+petsB.cat), (2, people+petsB.cat), (2, people+petsB.car), (2, people+petsB.cat), (2, people+petsB.dog), (2, people+petsB.dog), (2, people+petsB.dog), (2, people+petsB.cat), (2, people+petsB.dog)])
+
+(people+petsA.vegetarian, [(8, people+petsB.vehicle), (8, people+petsB.newspaper), (8, people+petsB.vehicle), (8, people+petsB.vehicle), (8, people+petsB.vehicle), (8, people+petsB.red_top), (8, people+petsB.newspaper), (8, people+petsB.newspaper), (8, people+petsB.vehicle), (8, people+petsB.vehicle)])
+
+(people+petsA.dog, [(0, people+petsB.dog), (0, people+petsB.dog), (0, people+petsB.dog), (0, people+petsB.dog), (0, people+petsB.dog), (0, people+petsB.dog), (2, people+petsB.cow), (3, people+petsB.man), (3, people+petsB.van), (3, people+petsB.cat)])
+
+(people+petsA.bone, [(0, people+petsB.bone), (0, people+petsB.bone), (3, people+petsB.man), (3, people+petsB.van), (3, people+petsB.cow), (3, people+petsB.dog), (3, people+petsB.man), (3, people+petsB.male), (3, people+petsB.van), (3, people+petsB.tree)])
+
+(people+petsA.kid, [(0, people+petsB.kid), (3, people+petsB.man), (3, people+petsB.van), (3, people+petsB.cat), (3, people+petsB.cat), (3, people+petsB.cow), (3, people+petsB.car), (3, people+petsB.cat), (3, people+petsB.dog), (3, people+petsB.man)])
+
+(people+petsA.person, [(0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person)])
+
+(people+petsA.young, [(3, owl.Thing), (3, owl.Thing), (4, people+petsB.adult), (4, people+petsB.cow), (4, people+petsB.coach), (4, people+petsB.dog), (4, people+petsB.bone), (4, people+petsB.adult), (4, people+petsB.bone), (4, people+petsB.plant)])
+
+(people+petsA.man, [(0, people+petsB.man), (0, people+petsB.man), (0, people+petsB.man), (1, people+petsB.van), (1, people+petsB.van), (1, people+petsB.van), (1, people+petsB.van), (2, people+petsB.cat), (2, people+petsB.cat), (2, people+petsB.car)])
+
+(people+petsA.person, [(0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person)])
+
+(people+petsA.male, [(0, people+petsB.male), (0, people+petsB.male), (0, people+petsB.male), (2, people+petsB.man), (2, people+petsB.man), (2, people+petsB.man), (3, people+petsB.van), (3, people+petsB.cat), (3, people+petsB.cat), (3, people+petsB.car)])
+
+(people+petsA.adult, [(0, people+petsB.adult), (0, people+petsB.adult), (0, people+petsB.adult), (0, people+petsB.adult), (0, people+petsB.adult), (0, people+petsB.adult), (0, people+petsB.adult), (4, people+petsB.plant), (4, people+petsB.truck), (4, people+petsB.truck)])
+
+
+ Syn Ranking: 
+(people+petsA.white_van_man, [(0, people+petsB.white_van_man), (0, people+petsB.white_van_man), (7, people+petsB.white_thing), (7, people+petsB.white_thing), (7, people+petsB.white_thing), (10, people+petsB.man), (10, people+petsB.company), (10, people+petsB.brain), (10, people+petsB.coach), (10, people+petsB.car)])
+
+(people+petsA.man, [(0, people+petsB.man), (0, people+petsB.man), (0, people+petsB.man), (1, people+petsB.van), (1, people+petsB.van), (1, people+petsB.magazine), (1, people+petsB.van), (1, people+petsB.van), (2, people+petsB.cat), (2, people+petsB.cat)])
+
+(people+petsA.white_thing, [(0, people+petsB.white_thing), (0, people+petsB.white_thing), (0, people+petsB.white_thing), (7, people+petsB.white_van_man), (7, people+petsB.man), (7, people+petsB.man), (7, people+petsB.man), (7, people+petsB.white_van_man), (8, people+petsB.dog), (8, people+petsB.dog)])
+
+(people+petsA.van, [(0, people+petsB.van), (0, people+petsB.van), (0, people+petsB.van), (0, people+petsB.van), (1, people+petsB.man), (1, people+petsB.man), (1, people+petsB.man), (2, people+petsB.cat), (2, people+petsB.cat), (2, people+petsB.tabloid)])
+
+(people+petsA.publication, [(0, people+petsB.publication), (0, people+petsB.publication), (0, people+petsB.publication), (0, people+petsB.publication), (4, people+petsB.man), (4, people+petsB.animal), (4, people+petsB.cat), (4, people+petsB.cat), (4, people+petsB.animal), (4, people+petsB.coach)])
+
+(people+petsA.giraffe, [(0, people+petsB.giraffe), (4, people+petsB.dog), (4, people+petsB.dog), (4, people+petsB.dog), (4, people+petsB.dog), (4, people+petsB.dog), (4, people+petsB.dog), (5, people+petsB.van), (5, people+petsB.cat_lover), (5, people+petsB.male)])
+
+(people+petsA.animal, [(0, people+petsB.animal), (0, people+petsB.animal), (0, people+petsB.animal), (0, people+petsB.animal), (0, people+petsB.animal), (0, people+petsB.animal), (0, people+petsB.animal), (0, people+petsB.animal), (0, people+petsB.animal), (0, people+petsB.animal)])
+
+(people+petsA.leaf, [(0, people+petsB.leaf), (0, people+petsB.leaf), (1, people+petsB.dog), (1, people+petsB.dog), (1, people+petsB.dog), (1, people+petsB.magazine), (1, people+petsB.dog), (1, people+petsB.dog), (1, people+petsB.dog), (2, people+petsB.broadsheet)])
+
+(people+petsA.cat_liker, [(2, people+petsB.cat_lover), (3, people+petsB.cat_owner), (5, people+petsB.pet_owner), (5, people+petsB.dog_lover), (6, people+petsB.giraffe), (6, people+petsB.cat), (6, people+petsB.cat), (6, people+petsB.coach), (6, people+petsB.car), (6, people+petsB.cat)])
+
+(people+petsA.person, [(0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person)])
+
+(people+petsA.cat, [(0, people+petsB.cat), (0, people+petsB.cat), (0, people+petsB.cat), (0, people+petsB.cat), (0, people+petsB.cat), (0, people+petsB.cat), (1, people+petsB.car), (1, people+petsB.dog), (1, people+petsB.dog), (1, people+petsB.dog)])
+
+(people+petsA.cat_owner, [(0, people+petsB.cat_owner), (2, people+petsB.pet_owner), (3, people+petsB.cat_lover), (3, people+petsB.dog_owner), (6, people+petsB.van), (6, people+petsB.cat), (6, people+petsB.cat), (6, people+petsB.coach), (6, people+petsB.car), (6, people+petsB.cat)])
+
+(people+petsA.person, [(0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person)])
+
+(people+petsA.cat, [(0, people+petsB.cat), (0, people+petsB.cat), (0, people+petsB.cat), (0, people+petsB.cat), (0, people+petsB.cat), (0, people+petsB.cat), (1, people+petsB.car), (1, people+petsB.dog), (1, people+petsB.dog), (1, people+petsB.dog)])
+
+(people+petsA.grownup, [(0, people+petsB.grownup), (0, people+petsB.adult), (0, people+petsB.adult), (0, people+petsB.adult), (0, people+petsB.adult), (0, people+petsB.adult), (0, people+petsB.adult), (0, people+petsB.adult), (2, people+petsB.broadsheet), (2, people+petsB.broadsheet)])
+
+(people+petsA.person, [(0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person)])
+
+(people+petsA.adult, [(0, people+petsB.grownup), (0, people+petsB.adult), (0, people+petsB.adult), (0, people+petsB.adult), (0, people+petsB.adult), (0, people+petsB.adult), (0, people+petsB.adult), (0, people+petsB.adult), (2, people+petsB.broadsheet), (2, people+petsB.broadsheet)])
+
+(people+petsA.quality_broadsheet, [(0, people+petsB.quality_broadsheet), (15, people+petsB.publication), (15, people+petsB.animal), (15, people+petsB.cat), (15, people+petsB.cat), (15, people+petsB.publication), (15, people+petsB.animal), (15, people+petsB.car), (15, people+petsB.cat), (15, people+petsB.animal)])
+
+(people+petsA.broadsheet, [(0, people+petsB.broadsheet), (0, people+petsB.broadsheet), (0, people+petsB.broadsheet), (0, people+petsB.broadsheet), (0, people+petsB.broadsheet), (0, people+petsB.broadsheet), (2, people+petsB.leaf), (2, people+petsB.grownup), (2, people+petsB.adult), (2, people+petsB.adult)])
+
+(people+petsA.vehicle, [(0, people+petsB.vehicle), (0, people+petsB.vehicle), (0, people+petsB.vehicle), (0, people+petsB.vehicle), (0, people+petsB.vehicle), (0, people+petsB.vehicle), (0, people+petsB.vehicle), (0, people+petsB.vehicle), (2, people+petsB.cat), (2, people+petsB.cat)])
+
+(people+petsA.newspaper, [(0, people+petsB.newspaper), (0, people+petsB.newspaper), (0, people+petsB.newspaper), (3, people+petsB.man), (3, people+petsB.cat), (3, people+petsB.cat), (3, people+petsB.broadsheet), (3, people+petsB.broadsheet), (3, people+petsB.company), (3, people+petsB.cat)])
+
+(people+petsA.publication, [(0, people+petsB.publication), (0, people+petsB.publication), (0, people+petsB.publication), (0, people+petsB.publication), (4, people+petsB.man), (4, people+petsB.animal), (4, people+petsB.cat), (4, people+petsB.cat), (4, people+petsB.animal), (4, people+petsB.coach)])
+
+(people+petsA.broadsheet, [(0, people+petsB.broadsheet), (0, people+petsB.broadsheet), (0, people+petsB.broadsheet), (0, people+petsB.broadsheet), (0, people+petsB.broadsheet), (0, people+petsB.broadsheet), (2, people+petsB.leaf), (2, people+petsB.grownup), (2, people+petsB.adult), (2, people+petsB.adult)])
+
+(people+petsA.tabloid, [(0, people+petsB.tabloid), (0, people+petsB.tabloid), (0, people+petsB.tabloid), (0, people+petsB.tabloid), (0, people+petsB.tabloid), (0, people+petsB.tabloid), (1, people+petsB.sheep), (1, people+petsB.dog), (1, people+petsB.dog), (1, people+petsB.dog)])
+
+(people+petsA.bus_company, [(8, people+petsB.cat), (8, people+petsB.cat), (8, people+petsB.mad_cow), (8, people+petsB.coach), (8, people+petsB.cat), (8, people+petsB.dog), (8, people+petsB.pet), (8, people+petsB.coach), (8, people+petsB.dog), (8, people+petsB.dog)])
+
+(people+petsA.company, [(0, people+petsB.company), (0, people+petsB.company), (0, people+petsB.company), (1, people+petsB.duck), (1, people+petsB.duck), (1, people+petsB.duck), (1, people+petsB.duck), (3, people+petsB.cat), (3, people+petsB.cat), (3, people+petsB.newspaper)])
+
+(people+petsA.pet_owner, [(0, people+petsB.pet_owner), (2, people+petsB.cat_owner), (3, people+petsB.dog_owner), (5, people+petsB.cat_lover), (5, people+petsB.duck), (5, people+petsB.duck), (5, people+petsB.duck), (5, people+petsB.duck), (6, people+petsB.van), (6, people+petsB.person)])
+
+(people+petsA.person, [(0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person)])
+
+(people+petsA.animal, [(0, people+petsB.animal), (0, people+petsB.animal), (0, people+petsB.animal), (0, people+petsB.animal), (0, people+petsB.animal), (0, people+petsB.animal), (0, people+petsB.animal), (0, people+petsB.animal), (0, people+petsB.animal), (0, people+petsB.animal)])
+
+(people+petsA.mad_cow, [(0, people+petsB.mad_cow), (3, people+petsB.cow), (4, people+petsB.red_top), (5, people+petsB.man), (5, people+petsB.cat), (5, people+petsB.cat), (5, people+petsB.coach), (5, people+petsB.car), (5, people+petsB.cat), (5, people+petsB.dog)])
+
+(people+petsA.cow, [(0, people+petsB.cow), (2, people+petsB.cat), (2, people+petsB.cat), (2, people+petsB.car), (2, people+petsB.cat), (2, people+petsB.dog), (2, people+petsB.dog), (2, people+petsB.dog), (2, people+petsB.grass), (2, people+petsB.grass)])
+
+(people+petsA.brain, [(0, people+petsB.brain), (0, people+petsB.brain), (1, people+petsB.coach), (1, people+petsB.coach), (1, people+petsB.coach), (2, people+petsB.man), (2, people+petsB.leaf), (2, people+petsB.person), (2, people+petsB.cat), (2, people+petsB.person)])
+
+(people+petsA.sheep, [(0, people+petsB.sheep), (0, people+petsB.sheep), (1, people+petsB.tabloid), (1, people+petsB.tabloid), (1, people+petsB.tabloid), (1, people+petsB.tabloid), (1, people+petsB.tabloid), (1, people+petsB.tabloid), (2, people+petsB.bicycle), (3, people+petsB.cat)])
+
+(people+petsA.bus, [(0, people+petsB.coach), (0, people+petsB.coach), (0, people+petsB.coach), (1, people+petsB.brain), (1, people+petsB.brain), (2, people+petsB.leaf), (2, people+petsB.cat), (2, people+petsB.cat), (2, people+petsB.grownup), (2, people+petsB.adult)])
+
+(people+petsA.vehicle, [(0, people+petsB.vehicle), (0, people+petsB.vehicle), (0, people+petsB.vehicle), (0, people+petsB.vehicle), (0, people+petsB.vehicle), (0, people+petsB.vehicle), (0, people+petsB.vehicle), (0, people+petsB.vehicle), (2, people+petsB.cat), (2, people+petsB.cat)])
+
+(people+petsA.car, [(0, people+petsB.car), (1, people+petsB.cat), (1, people+petsB.cat), (1, people+petsB.cat), (1, people+petsB.dog), (1, people+petsB.dog), (1, people+petsB.dog), (1, people+petsB.cat), (1, people+petsB.dog), (1, people+petsB.cat)])
+
+(people+petsA.vehicle, [(0, people+petsB.vehicle), (0, people+petsB.vehicle), (0, people+petsB.vehicle), (0, people+petsB.vehicle), (0, people+petsB.vehicle), (0, people+petsB.vehicle), (0, people+petsB.vehicle), (0, people+petsB.vehicle), (2, people+petsB.cat), (2, people+petsB.cat)])
+
+(people+petsA.cat, [(0, people+petsB.cat), (0, people+petsB.cat), (0, people+petsB.cat), (0, people+petsB.cat), (0, people+petsB.cat), (0, people+petsB.cat), (1, people+petsB.car), (1, people+petsB.dog), (1, people+petsB.dog), (1, people+petsB.dog)])
+
+(people+petsA.animal, [(0, people+petsB.animal), (0, people+petsB.animal), (0, people+petsB.animal), (0, people+petsB.animal), (0, people+petsB.animal), (0, people+petsB.animal), (0, people+petsB.animal), (0, people+petsB.animal), (0, people+petsB.animal), (0, people+petsB.animal)])
+
+(people+petsA.cow, [(0, people+petsB.cow), (2, people+petsB.cat), (2, people+petsB.cat), (2, people+petsB.car), (2, people+petsB.cat), (2, people+petsB.dog), (2, people+petsB.dog), (2, people+petsB.dog), (2, people+petsB.grass), (2, people+petsB.grass)])
+
+(people+petsA.vegetarian, [(7, people+petsB.man), (7, people+petsB.van), (7, people+petsB.man), (7, people+petsB.van), (7, people+petsB.van), (7, people+petsB.man), (7, people+petsB.van), (8, people+petsB.animal), (8, people+petsB.cat), (8, people+petsB.cat)])
+
+(people+petsA.dog, [(0, people+petsB.dog), (0, people+petsB.dog), (0, people+petsB.dog), (0, people+petsB.dog), (0, people+petsB.dog), (0, people+petsB.dog), (1, people+petsB.leaf), (1, people+petsB.cat), (1, people+petsB.cat), (1, people+petsB.tabloid)])
+
+(people+petsA.bone, [(0, people+petsB.bone), (0, people+petsB.bone), (2, people+petsB.cat), (2, people+petsB.cat), (2, people+petsB.cat), (2, people+petsB.dog), (2, people+petsB.pet), (2, people+petsB.dog), (2, people+petsB.dog), (2, people+petsB.grass)])
+
+(people+petsA.kid, [(0, people+petsB.kid), (1, people+petsB.bicycle), (2, people+petsB.cat), (2, people+petsB.cat), (2, people+petsB.grownup), (2, people+petsB.adult), (2, people+petsB.brain), (2, people+petsB.cat), (2, people+petsB.dog), (2, people+petsB.adult)])
+
+(people+petsA.person, [(0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person)])
+
+(people+petsA.young, [(2, people+petsB.animal), (2, people+petsB.animal), (2, people+petsB.cow), (2, people+petsB.animal), (2, people+petsB.dog), (2, people+petsB.pet), (2, people+petsB.animal), (2, people+petsB.plant), (2, people+petsB.dog), (2, people+petsB.dog)])
+
+(people+petsA.man, [(0, people+petsB.man), (0, people+petsB.man), (0, people+petsB.man), (1, people+petsB.van), (1, people+petsB.van), (1, people+petsB.magazine), (1, people+petsB.van), (1, people+petsB.van), (2, people+petsB.cat), (2, people+petsB.cat)])
+
+(people+petsA.person, [(0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person), (0, people+petsB.person)])
+
+(people+petsA.male, [(0, people+petsB.male), (0, people+petsB.male), (0, people+petsB.male), (2, people+petsB.man), (2, people+petsB.man), (2, people+petsB.grass), (2, people+petsB.grass), (2, people+petsB.magazine), (2, people+petsB.man), (3, people+petsB.van)])
+
+(people+petsA.adult, [(0, people+petsB.grownup), (0, people+petsB.adult), (0, people+petsB.adult), (0, people+petsB.adult), (0, people+petsB.adult), (0, people+petsB.adult), (0, people+petsB.adult), (0, people+petsB.adult), (2, people+petsB.broadsheet), (2, people+petsB.broadsheet)])
+

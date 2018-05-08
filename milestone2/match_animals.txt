@@ -1,0 +1,17 @@
+
+ triples: 
+animalsA.Woman owl:equivalentClass animalsB.Woman
+animalsA.Animal owl:equivalentClass animalsB.Animal
+animalsA.Person owl:equivalentClass animalsB.Person
+animalsA.Man owl:equivalentClass animalsB.Man
+animalsA.Male owl:equivalentClass animalsB.Male
+animalsA.Female owl:equivalentClass animalsB.Female
+
+ Syn triples: 
+animalsA.HumanBeing owl:equivalentClass animalsB.Man
+animalsA.Woman owl:equivalentClass animalsB.Woman
+animalsA.Animal owl:equivalentClass animalsB.Animal
+animalsA.Person owl:equivalentClass animalsB.Person
+animalsA.Man owl:equivalentClass animalsB.Man
+animalsA.Male owl:equivalentClass animalsB.Male
+animalsA.Female owl:equivalentClass animalsB.Female

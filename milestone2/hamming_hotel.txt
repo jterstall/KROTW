@@ -1,0 +1,37 @@
+
+ triples: 
+
+ Syn triples: 
+hotelA.Suite owl:equivalentClass hotelB.Room
+
+ Ranking: 
+(hotelA.HotelRoom, [(8, hotelB.Room), (12, hotelB.RoomAttribute), (12, hotelB.SizeAttribute), (14, hotelB.FloorAttribute), (16, hotelB.SmokingAttribute), (16, hotelB.NumBedsAttribute), (18, hotelB.ExclusiveAttribute)])
+
+(hotelA.TownHouse, [(8, hotelB.Room), (12, hotelB.RoomAttribute), (13, hotelB.SizeAttribute), (14, hotelB.FloorAttribute), (16, hotelB.SmokingAttribute), (16, hotelB.NumBedsAttribute), (17, hotelB.ExclusiveAttribute)])
+
+(hotelA.Suite, [(5, hotelB.Room), (12, hotelB.SizeAttribute), (13, hotelB.RoomAttribute), (14, hotelB.FloorAttribute), (14, hotelB.NumBedsAttribute), (15, hotelB.SmokingAttribute), (18, hotelB.ExclusiveAttribute)])
+
+(hotelA.OneRoom, [(7, hotelB.Room), (13, hotelB.RoomAttribute), (13, hotelB.SizeAttribute), (14, hotelB.FloorAttribute), (16, hotelB.SmokingAttribute), (16, hotelB.NumBedsAttribute), (18, hotelB.ExclusiveAttribute)])
+
+(hotelA.SmokingPreference, [(10, hotelB.SmokingAttribute), (14, hotelB.FloorAttribute), (16, hotelB.Room), (16, hotelB.RoomAttribute), (16, hotelB.SizeAttribute), (17, hotelB.ExclusiveAttribute), (17, hotelB.NumBedsAttribute)])
+
+(hotelA.OnFloor, [(7, hotelB.Room), (13, hotelB.RoomAttribute), (13, hotelB.SizeAttribute), (14, hotelB.FloorAttribute), (16, hotelB.SmokingAttribute), (16, hotelB.NumBedsAttribute), (17, hotelB.ExclusiveAttribute)])
+
+(hotelA.NumBeds, [(7, hotelB.Room), (9, hotelB.NumBedsAttribute), (13, hotelB.RoomAttribute), (13, hotelB.SizeAttribute), (14, hotelB.FloorAttribute), (16, hotelB.SmokingAttribute), (18, hotelB.ExclusiveAttribute)])
+
+
+ Syn Ranking: 
+(hotelA.HotelRoom, [(5, hotelB.Room), (13, hotelB.RoomAttribute), (13, hotelB.SizeAttribute), (14, hotelB.FloorAttribute), (17, hotelB.SmokingAttribute), (18, hotelB.NumBedsAttribute), (19, hotelB.ExclusiveAttribute)])
+
+(hotelA.TownHouse, [(7, hotelB.Room), (12, hotelB.RoomAttribute), (13, hotelB.SizeAttribute), (15, hotelB.FloorAttribute), (16, hotelB.NumBedsAttribute), (17, hotelB.SmokingAttribute), (18, hotelB.ExclusiveAttribute)])
+
+(hotelA.Suite, [(1, hotelB.Room), (10, hotelB.RoomAttribute), (13, hotelB.SizeAttribute), (13, hotelB.FloorAttribute), (16, hotelB.ExclusiveAttribute), (16, hotelB.SmokingAttribute), (17, hotelB.NumBedsAttribute)])
+
+(hotelA.OneRoom, [(8, hotelB.Room), (14, hotelB.RoomAttribute), (14, hotelB.SizeAttribute), (14, hotelB.FloorAttribute), (17, hotelB.SmokingAttribute), (17, hotelB.NumBedsAttribute), (19, hotelB.ExclusiveAttribute)])
+
+(hotelA.SmokingPreference, [(10, hotelB.SmokingAttribute), (15, hotelB.FloorAttribute), (17, hotelB.Room), (17, hotelB.RoomAttribute), (17, hotelB.SizeAttribute), (17, hotelB.NumBedsAttribute), (18, hotelB.ExclusiveAttribute)])
+
+(hotelA.OnFloor, [(8, hotelB.Room), (14, hotelB.RoomAttribute), (14, hotelB.SizeAttribute), (15, hotelB.FloorAttribute), (17, hotelB.SmokingAttribute), (18, hotelB.NumBedsAttribute), (19, hotelB.ExclusiveAttribute)])
+
+(hotelA.NumBeds, [(8, hotelB.Room), (10, hotelB.NumBedsAttribute), (14, hotelB.RoomAttribute), (14, hotelB.SizeAttribute), (15, hotelB.FloorAttribute), (17, hotelB.SmokingAttribute), (19, hotelB.ExclusiveAttribute)])
+

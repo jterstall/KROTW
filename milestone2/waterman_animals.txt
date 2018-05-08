@@ -1,0 +1,108 @@
+
+ triples: 
+animalsA.Woman owl:equivalentClass animalsB.Woman
+animalsA.Animal owl:equivalentClass animalsB.Animal
+animalsA.Person owl:equivalentClass animalsB.Person
+animalsA.TwoLeggedThing owl:equivalentClass animalsB.BipedalThing
+animalsA.TwoLeggedPerson owl:equivalentClass animalsB.BipedalPerson
+animalsA.Person owl:equivalentClass animalsB.BipedalPerson
+animalsA.TwoLeggedPerson owl:equivalentClass animalsB.Person
+animalsA.Female owl:equivalentClass animalsB.Female
+
+ Syn triples: 
+animalsA.TwoLeggedPerson owl:equivalentClass animalsB.Hermaphrodite
+animalsA.Animal owl:equivalentClass animalsB.Man
+animalsA.Male owl:equivalentClass animalsB.BipedalPerson
+animalsA.TwoLeggedPerson owl:equivalentClass animalsB.Male
+animalsA.Male owl:equivalentClass animalsB.Man
+animalsA.TwoLeggedPerson owl:equivalentClass animalsB.BipedalPerson
+animalsA.Male owl:equivalentClass animalsB.Person
+animalsA.Man owl:equivalentClass animalsB.Person
+animalsA.Male owl:equivalentClass animalsB.Male
+animalsA.Female owl:equivalentClass animalsB.Woman
+animalsA.Man owl:equivalentClass animalsB.BipedalPerson
+animalsA.Female owl:equivalentClass animalsB.Man
+animalsA.Female owl:equivalentClass animalsB.Person
+animalsA.Woman owl:equivalentClass animalsB.Woman
+animalsA.Man owl:equivalentClass animalsB.BipedalThing
+animalsA.Man owl:equivalentClass animalsB.Animal
+animalsA.Woman owl:equivalentClass animalsB.Female
+animalsA.TwoLeggedThing owl:equivalentClass animalsB.BipedalThing
+animalsA.Animal owl:equivalentClass animalsB.Female
+animalsA.Person owl:equivalentClass animalsB.Male
+animalsA.Male owl:equivalentClass animalsB.Hermaphrodite
+animalsA.TwoLeggedPerson owl:equivalentClass animalsB.Female
+animalsA.Female owl:equivalentClass animalsB.Female
+animalsA.Female owl:equivalentClass animalsB.BipedalPerson
+animalsA.Man owl:equivalentClass animalsB.Male
+animalsA.Person owl:equivalentClass animalsB.Hermaphrodite
+animalsA.Person owl:equivalentClass animalsB.Person
+animalsA.HumanBeing owl:equivalentClass animalsB.Animal
+animalsA.Woman owl:equivalentClass animalsB.Hermaphrodite
+animalsA.Person owl:equivalentClass animalsB.BipedalPerson
+animalsA.TwoLeggedPerson owl:equivalentClass animalsB.Person
+animalsA.Male owl:equivalentClass animalsB.Female
+animalsA.HumanBeing owl:equivalentClass animalsB.BipedalThing
+animalsA.Female owl:equivalentClass animalsB.Animal
+animalsA.Female owl:equivalentClass animalsB.Hermaphrodite
+animalsA.Person owl:equivalentClass animalsB.Female
+animalsA.Man owl:equivalentClass animalsB.Woman
+animalsA.TwoLeggedPerson owl:equivalentClass animalsB.Man
+animalsA.Man owl:equivalentClass animalsB.Female
+animalsA.Female owl:equivalentClass animalsB.Male
+animalsA.HumanBeing owl:equivalentClass animalsB.Man
+animalsA.Animal owl:equivalentClass animalsB.Animal
+animalsA.Person owl:equivalentClass animalsB.Man
+animalsA.Woman owl:equivalentClass animalsB.Man
+animalsA.Man owl:equivalentClass animalsB.Man
+animalsA.Man owl:equivalentClass animalsB.Hermaphrodite
+animalsA.Animal owl:equivalentClass animalsB.Male
+animalsA.Male owl:equivalentClass animalsB.Animal
+
+ Ranking: 
+(animalsA.Animal, [(6.0, animalsB.Animal), (3.0, animalsB.Female), (2.0, animalsB.Male), (2.0, animalsB.Hermaphrodite), (2.0, animalsB.Woman), (2.0, animalsB.BipedalThing), (2.0, animalsB.BipedalPerson), (2.0, animalsB.BipedalThing), (1.0, animalsB.Man), (1.0, animalsB.Person)])
+
+(animalsA.Male, [(4.0, animalsB.Male), (3.0, animalsB.Female), (2.0, animalsB.Animal), (2.0, animalsB.Man), (2.0, animalsB.BipedalThing), (2.0, animalsB.BipedalPerson), (2.0, animalsB.BipedalThing), (1.0, animalsB.Hermaphrodite), (1.0, animalsB.Woman), (1.0, animalsB.Person)])
+
+(animalsA.Female, [(6.0, animalsB.Female), (3.0, animalsB.Animal), (3.0, animalsB.Male), (3.0, animalsB.BipedalThing), (3.0, animalsB.BipedalPerson), (3.0, animalsB.BipedalThing), (2.0, animalsB.Hermaphrodite), (2.0, animalsB.Woman), (1.0, animalsB.Man), (1.0, animalsB.Person)])
+
+(animalsA.Man, [(3.0, animalsB.Man), (2.0, animalsB.Male), (2.0, animalsB.Woman), (1.0, animalsB.Animal), (1.0, animalsB.Female), (1.0, animalsB.Hermaphrodite), (1.0, animalsB.Person), (1.0, animalsB.BipedalThing), (1.0, animalsB.BipedalPerson), (1.0, animalsB.Person)])
+
+(animalsA.HumanBeing, [(4.0, animalsB.BipedalThing), (4.0, animalsB.BipedalThing), (3.0, animalsB.Woman), (2.0, animalsB.Animal), (2.0, animalsB.Female), (2.0, animalsB.Hermaphrodite), (2.0, animalsB.Man), (2.0, animalsB.BipedalPerson), (1.0, animalsB.Male), (1.0, animalsB.Person)])
+
+(animalsA.Woman, [(5.0, animalsB.Woman), (2.0, animalsB.Animal), (2.0, animalsB.Female), (2.0, animalsB.Hermaphrodite), (2.0, animalsB.Man), (1.0, animalsB.Male), (1.0, animalsB.Person), (1.0, animalsB.BipedalThing), (1.0, animalsB.BipedalPerson), (1.0, animalsB.Person)])
+
+(animalsA.Person, [(6.0, animalsB.Person), (6.0, animalsB.BipedalPerson), (6.0, animalsB.Person), (2.0, animalsB.Hermaphrodite), (1.0, animalsB.Animal), (1.0, animalsB.Male), (1.0, animalsB.Female), (1.0, animalsB.Man), (1.0, animalsB.Woman), (1.0, animalsB.BipedalThing)])
+
+(animalsA.TwoLeggedThing, [(6.0, animalsB.BipedalThing), (6.0, animalsB.BipedalThing), (2.0, animalsB.BipedalPerson), (1.0, animalsB.Animal), (1.0, animalsB.Male), (1.0, animalsB.Female), (1.0, animalsB.Hermaphrodite), (1.0, animalsB.Man), (1.0, animalsB.Woman), (1.0, animalsB.Person)])
+
+(animalsA.TwoLeggedPerson, [(7.0, animalsB.BipedalPerson), (6.0, animalsB.Person), (6.0, animalsB.Person), (3.0, animalsB.BipedalThing), (3.0, animalsB.BipedalThing), (2.0, animalsB.Hermaphrodite), (1.0, animalsB.Animal), (1.0, animalsB.Male), (1.0, animalsB.Female), (1.0, animalsB.Man)])
+
+(animalsA.Person, [(6.0, animalsB.Person), (6.0, animalsB.BipedalPerson), (6.0, animalsB.Person), (2.0, animalsB.Hermaphrodite), (1.0, animalsB.Animal), (1.0, animalsB.Male), (1.0, animalsB.Female), (1.0, animalsB.Man), (1.0, animalsB.Woman), (1.0, animalsB.BipedalThing)])
+
+(animalsA.TwoLeggedThing, [(6.0, animalsB.BipedalThing), (6.0, animalsB.BipedalThing), (2.0, animalsB.BipedalPerson), (1.0, animalsB.Animal), (1.0, animalsB.Male), (1.0, animalsB.Female), (1.0, animalsB.Hermaphrodite), (1.0, animalsB.Man), (1.0, animalsB.Woman), (1.0, animalsB.Person)])
+
+
+ Syn Ranking: 
+(animalsA.Animal, [(13.0, animalsB.Animal), (7.0, animalsB.Man), (5.0, animalsB.Male), (5.0, animalsB.Female), (4.0, animalsB.Hermaphrodite), (4.0, animalsB.Woman), (4.0, animalsB.BipedalThing), (4.0, animalsB.BipedalThing), (3.0, animalsB.Person), (3.0, animalsB.Person)])
+
+(animalsA.Male, [(11.0, animalsB.Male), (11.0, animalsB.Female), (8.0, animalsB.Hermaphrodite), (8.0, animalsB.Man), (8.0, animalsB.BipedalPerson), (6.0, animalsB.Person), (6.0, animalsB.Person), (5.0, animalsB.Animal), (4.0, animalsB.Woman), (2.0, animalsB.BipedalThing)])
+
+(animalsA.Female, [(13.0, animalsB.Female), (11.0, animalsB.Male), (9.0, animalsB.BipedalPerson), (8.0, animalsB.Hermaphrodite), (8.0, animalsB.Man), (6.0, animalsB.Woman), (6.0, animalsB.Person), (6.0, animalsB.Person), (5.0, animalsB.Animal), (3.0, animalsB.BipedalThing)])
+
+(animalsA.Man, [(21.0, animalsB.Man), (9.0, animalsB.Woman), (8.0, animalsB.Male), (8.0, animalsB.Female), (8.0, animalsB.Hermaphrodite), (8.0, animalsB.BipedalPerson), (7.0, animalsB.Animal), (6.0, animalsB.Person), (6.0, animalsB.Person), (5.0, animalsB.BipedalThing)])
+
+(animalsA.HumanBeing, [(11.0, animalsB.Man), (7.0, animalsB.Animal), (5.0, animalsB.BipedalThing), (5.0, animalsB.BipedalThing), (4.0, animalsB.Woman), (3.0, animalsB.Male), (3.0, animalsB.Female), (3.0, animalsB.Hermaphrodite), (3.0, animalsB.BipedalPerson), (2.0, animalsB.Person)])
+
+(animalsA.Woman, [(14.0, animalsB.Woman), (9.0, animalsB.Man), (6.0, animalsB.Female), (5.0, animalsB.Hermaphrodite), (4.0, animalsB.Animal), (4.0, animalsB.Male), (4.0, animalsB.BipedalThing), (4.0, animalsB.BipedalThing), (3.0, animalsB.Person), (3.0, animalsB.BipedalPerson)])
+
+(animalsA.Person, [(10.0, animalsB.Person), (10.0, animalsB.Person), (6.0, animalsB.Male), (6.0, animalsB.Female), (6.0, animalsB.Hermaphrodite), (6.0, animalsB.Man), (6.0, animalsB.BipedalPerson), (3.0, animalsB.Animal), (3.0, animalsB.Woman), (3.0, animalsB.BipedalThing)])
+
+(animalsA.TwoLeggedThing, [(7.0, animalsB.BipedalThing), (7.0, animalsB.BipedalThing), (4.0, animalsB.Animal), (4.0, animalsB.Man), (4.0, animalsB.Woman), (3.0, animalsB.Male), (3.0, animalsB.Female), (2.0, animalsB.Hermaphrodite), (2.0, animalsB.Person), (2.0, animalsB.BipedalPerson)])
+
+(animalsA.TwoLeggedPerson, [(8.0, animalsB.Male), (8.0, animalsB.Female), (8.0, animalsB.Man), (8.0, animalsB.BipedalPerson), (7.0, animalsB.Hermaphrodite), (6.0, animalsB.Person), (6.0, animalsB.Person), (3.0, animalsB.Woman), (3.0, animalsB.BipedalThing), (3.0, animalsB.BipedalThing)])
+
+(animalsA.Person, [(10.0, animalsB.Person), (10.0, animalsB.Person), (6.0, animalsB.Male), (6.0, animalsB.Female), (6.0, animalsB.Hermaphrodite), (6.0, animalsB.Man), (6.0, animalsB.BipedalPerson), (3.0, animalsB.Animal), (3.0, animalsB.Woman), (3.0, animalsB.BipedalThing)])
+
+(animalsA.TwoLeggedThing, [(7.0, animalsB.BipedalThing), (7.0, animalsB.BipedalThing), (4.0, animalsB.Animal), (4.0, animalsB.Man), (4.0, animalsB.Woman), (3.0, animalsB.Male), (3.0, animalsB.Female), (2.0, animalsB.Hermaphrodite), (2.0, animalsB.Person), (2.0, animalsB.BipedalPerson)])
+
